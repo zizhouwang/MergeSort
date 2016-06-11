@@ -8,11 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-void merge(NSMutableArray * the_array, NSInteger p, NSInteger q ,NSInteger r) {
-//    NSInteger n1 = q - p + 1;
-//    
-//    NSInteger n2 = r - q;
-//    
+void merge(NSMutableArray * the_array, NSInteger p, NSInteger q ,NSInteger r) {  
     NSMutableArray * left_array = [NSMutableArray array];
     
     NSMutableArray * right_array = [NSMutableArray array];
